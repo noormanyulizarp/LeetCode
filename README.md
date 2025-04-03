@@ -4,7 +4,7 @@ Just for my exercise and experiment
 # File Structure
 ```sh
 LeetCode/
-├── README.md
+├── [README.md](http://_vscodecontentref_/2)
 ├── src/
     ├── Basic/
         ├── ArrayListExample.java
@@ -235,4 +235,4 @@ LeetCode/
         ├── ShortestPalindrome.java
         ├── PalindromePartitioning.java
         ├── MaxSumOfRectangleNoLargerThanK.java
-```
+````

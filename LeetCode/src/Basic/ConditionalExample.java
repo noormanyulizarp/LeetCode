@@ -19,28 +19,12 @@ public class ConditionalExample {
 
         // Determine the type of day
         switch (day) {
-            case "Monday":
+            case "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" -> 
                 System.out.println(day + " is a weekday.");
-                break;
-            case "Tuesday":
-                System.out.println(day + " is a weekday.");
-                break;
-            case "Wednesday":
-                System.out.println(day + " is a weekday.");
-                break;
-            case "Thursday":
-                System.out.println(day + " is a weekday.");
-                break;
-            case "Friday":
-                System.out.println(day + " is a weekday.");
-                break;
-            case "Saturday":
-            case "Sunday":
+            case "Saturday", "Sunday" -> 
                 System.out.println(day + " is a weekend.");
-                break;
-            default:
+            default -> 
                 System.out.println(day + " is not a valid day.");
-                break;
         }
     }
 }

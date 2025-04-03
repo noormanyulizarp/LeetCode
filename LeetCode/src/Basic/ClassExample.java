@@ -3,8 +3,8 @@
 
 public class ClassExample {
     // Fields (attributes) of the class
-    private String name;
-    private int age;
+    private final String name;
+    private final int age;
 
     // Constructor to initialize the fields
     public ClassExample(String name, int age) {
