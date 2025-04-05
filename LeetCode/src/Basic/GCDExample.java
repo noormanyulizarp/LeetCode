@@ -1,3 +1,6 @@
+// GCDExample.java
+// This program demonstrates the calculation of the Greatest Common Divisor (GCD) using the Euclidean algorithm.
+
 /**
  * This Java class calculates the Greatest Common Divisor (GCD) of two numbers
  * using the Euclidean algorithm and prints the result. The GCD is the largest

@@ -1,6 +1,53 @@
 // LinkedListExample2.java
 // This class demonstrates a basic implementation of a singly linked list without using constructors.
 
+/**
+ * This Java class demonstrates a basic implementation of a singly linked list.
+ * It includes methods to insert, display, and delete nodes in the list.
+ *
+ * <p>Details of the program:
+ * <ul>
+ *   <li>The `insert` method adds a new node at the end of the list.</li>
+ *   <li>The `display` method prints all elements of the list.</li>
+ *   <li>The `delete` method removes a node by its value.</li>
+ * </ul>
+ *
+ * <p>Use cases for linked lists:
+ * <ul>
+ *   <li>Dynamic memory allocation where the size of the list can change at runtime.</li>
+ *   <li>Efficient insertion and deletion operations compared to arrays.</li>
+ * </ul>
+ *
+ * <p>Example:
+ * <pre>
+ * Input: Insert 5, 15, 25, 35; Delete 15
+ * Output: Linked List: 5 -> 15 -> 25 -> 35 -> null
+ *         After deleting 15: 5 -> 25 -> 35 -> null
+ * </pre>
+ */
+// Penjelasan dalam Bahasa Indonesia:
+// Kelas Java ini menunjukkan implementasi dasar dari linked list tunggal.
+// Kelas ini mencakup metode untuk menambahkan, menampilkan, dan menghapus node dalam daftar.
+//
+// <p>Detail program:
+// <ul>
+//   <li>Metode `insert` menambahkan node baru di akhir daftar.</li>
+//   <li>Metode `display` mencetak semua elemen dalam daftar.</li>
+//   <li>Metode `delete` menghapus node berdasarkan nilainya.</li>
+// </ul>
+//
+// <p>Penggunaan linked list:
+// <ul>
+//   <li>Pengalokasian memori dinamis di mana ukuran daftar dapat berubah saat runtime.</li>
+//   <li>Operasi penambahan dan penghapusan yang lebih efisien dibandingkan array.</li>
+// </ul>
+//
+// <p>Contoh:
+// <pre>
+// Input: Tambahkan 5, 15, 25, 35; Hapus 15
+// Output: Linked List: 5 -> 15 -> 25 -> 35 -> null
+//         Setelah menghapus 15: 5 -> 25 -> 35 -> null
+// </pre>
 public class LinkedListExample2 {
     static class Node {
         int data;
